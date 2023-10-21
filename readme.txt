@@ -4,6 +4,8 @@ Node.js v16.14.2
 Steps to run SLICK_BACKEND--
 
 1.clone the directory-
+HTTPS - git clone https://github.com/harshiteuro/slick_backend.git
+SSH - git clone git@github.com:harshiteuro/slick_backend.git
 
 2.run npm install
 
