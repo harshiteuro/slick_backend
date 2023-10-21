@@ -18,8 +18,22 @@ RUN node upload_scripts.js
 nodemon app.js
 
 6.Test the APIs using postman-
-http://localhost:3000/fetch_products
-
+API- http://localhost:3000/fetch_products
+METHOD TYPE- POST
+REQUEST BODY-
+{
+    "type":"plum_products"  //kopari_products, mcaffeine_products, yogabars_products
+}
 
 
 I have shared screentshots of working API in postman and database migration in screenshot directory.
+
+
+DIRECTORY-
+
+main file - app.js
+routes defined in - routes directory
+controllers functions - controllers directory
+database handling - models directory
+products json data - datasets directory
+migrations / engestion - scripts
